@@ -1,8 +1,9 @@
 {
   "dependencies": {
+    "@sendgrid/mail": "^7.6.0",
     "netlify-lambda": "^2.0.15"
   },
-"scripts": {
+  "scripts": {
     "postinstall": "netlify-lambda install"
   }
 }
